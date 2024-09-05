@@ -1,0 +1,25 @@
+header {
+    background-color: white;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    background-color: #012043 ;
+
+}
+
+h1 {
+    margin: 0px;
+}
+
+main{
+    text-align: center;
+    display: block;
+}
+
+#form{
+    display: inline-block;
+}
+
+
