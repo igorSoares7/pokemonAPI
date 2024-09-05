@@ -1,6 +1,7 @@
 header {
     background-color: white;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 body {
@@ -15,7 +16,63 @@ h1 {
 
 main{
     text-align: center;
-    display: block;
+    padding: 10px
+    
+}
+
+.buscarPokemon {
+    border: solid 2px black;
+    background-color:  #D34646;
+    width: 500px;
+    margin: 0px auto;
+    min-width: 150px;
+    max-width: 250px;
+}
+
+.pokedex {
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color:  #D34646;
+    height: 220px;
+    margin: 0px auto;
+    min-width: 150px;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+.buscarPokemon, .visor {
+    padding: 10px;
+    border-radius: 10px;
+}
+button {
+    margin-top: 4px;
+}
+
+.luz {
+    position: relative;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 10px;
+    border-radius: 50%;
+    border: solid black 2px;
+    
+    
+}
+
+.visor{
+    background-color: gray;
+    width: 130px;
+    height: 120px;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 30px;
+}
+
+#inputPokemon {
+    text-align: center;
 }
 
 
