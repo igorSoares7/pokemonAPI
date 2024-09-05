@@ -6,10 +6,10 @@ async function execute(){
     const elementName = document.getElementById("namePokemon")
     const elementImage = document.getElementById("elementImage")
 
-    elementName.innerHTML = pokemon.name
+    elementName.innerHTML = `#${valueInput} - ${pokemon.name}`
     elementImage.src = pokemon.sprites.front_default
 
-    console.log(elementName.innerHTML)
+    
 }
 
 async function buscarAPI(valueInput) {
